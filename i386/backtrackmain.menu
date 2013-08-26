@@ -1,0 +1,8 @@
+LABEL BTX86
+MENU LABEL ^BackTrack Live - i386
+KERNEL er/plugins/backtrack/i386/vmlinuz
+INITRD er/plugins/backtrack/i386/initrd.gz
+APPEND boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/backtrack/i386 ramdisk_size=200000 nolock vga=791 aufs
+TEXT HELP
+                 BackTrack x86.
+ENDTEXT
