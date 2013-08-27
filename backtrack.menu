@@ -1,9 +1,6 @@
 MENU BEGIN BACKTRACK
+MENU TITLE BackTrack 5.0 R1
 MENU LABEL ^BackTrack 5.0 R1
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/backtrack/backtrack.png
 
 MENU INCLUDE er/plugins/backtrack/i386/backtrackmain.menu
